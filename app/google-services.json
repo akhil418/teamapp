@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "634223630198",
+    "firebase_url": "https://team-da2a3.firebaseio.com",
+    "project_id": "team-da2a3",
+    "storage_bucket": "team-da2a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:634223630198:android:62a3264f995b622b8d4c57",
+        "android_client_info": {
+          "package_name": "com.example.teamapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "634223630198-pb8798i23qd12da5rn348hufpfehprfu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIdJPkQuDkiLADQHfePjTrYavzvwwnDO4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "634223630198-pb8798i23qd12da5rn348hufpfehprfu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".createteam">
+
+    <EditText
+        android:id="@+id/teamname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Enter team name"
+        android:textSize="23dp" />
+
+    <EditText
+        android:id="@+id/location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/teamname"
+        android:layout_margin="20dp"
+        android:hint="Enter Location"
+        android:textSize="23dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/teamrec"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/location"
+        android:orientation="horizontal" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="104dp"
+        android:layout_height="77dp"
+        android:layout_below="@id/teamrec"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="166dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/add"
+        android:clickable="true" />
+
+    <Button
+        android:id="@+id/creatteam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/floatingActionButton"
+        android:layout_margin="30dp"
+        android:background="@color/colorPrimary"
+        android:text="Create Team"
+        android:textColor="@android:color/white"
+        />
+
+</RelativeLayout>
